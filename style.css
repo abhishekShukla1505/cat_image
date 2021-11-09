@@ -1,0 +1,98 @@
+#mainContainer{
+    margin: 0px;
+    padding: 0px;    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{    
+    height: 50px;
+    width: 100%;
+    background-color: rgb(48, 56, 48);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+    color: white;
+}
+#searchBar{
+    
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-right: 50px;  
+      
+}
+#inputbox{
+    height: 20px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: center;  
+}
+#imageContainer{
+    margin:10px;
+    height:250px;  
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(216, 228, 216);
+}
+#image{
+  width: 100%;
+  height:80%;
+    
+}
+#text{
+    margin-top: 10px;
+    font-size: 20px;   
+    
+}
+#pop_div{
+   height:90% ;
+   width: 80%; 
+   background-color: blue;
+}
+
+#popout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;  
+  
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  #popbox {
+    height: 85%;   
+    width: 80%;
+    background-color: rgb(255, 255, 255);     
+    margin-left: 10%;
+    margin-top: 50px; 
+  }
+
+
+  #closebtn{
+      display: block;
+      width: 80px;
+      height: 30px;
+      background-color: rgb(225, 225, 230);
+      margin-top: 5px;
+      margin-left: 91%;
+  }
+#finaldiv{
+    margin-top: 0px;
+    height: 90%;
+    width: 90%;
+    background-color: gray;
+    margin-left: 10px;
+
+}
